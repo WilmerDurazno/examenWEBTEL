@@ -31,6 +31,7 @@ class Clasificacion():
         except Exception as e:
             resul='Datos inválidos Comprube Nuevamente'
             print(e)
+            
         return render(request, "informe.html",{"e":resul})
     def inicio(request):
         return render(request,"index.html")
