@@ -1,0 +1,126 @@
+{% if msg %}
+<script>
+    alert('{{msg}}')
+</script>
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../static/estilos.css">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consulta</title>
+
+
+
+</head>
+
+<body id="cuerpo">
+    <header class="encabezado">
+        <h1>Prediccion contra la Diabetes  </h1>
+    </header>
+    <div class="separador"></div>
+    <div class="separador"></div>
+    <aside class="estructuraFormulario">
+        <div class="separador"></div>
+        <img id="avatar" src="../static/avatar2.jpg" class="imapie" alt="Información Sanitaria" />
+        <div class="separador"></div>
+        <form action="/predecir/" method="post" id="formulario01">
+            <div class="form">
+                {% csrf_token %}
+
+
+                <label>Edad ( 18 - 95 )
+                    <input type="number" name="Age">
+                </label>
+
+                
+                <br>
+                <br>
+                
+
+
+                <label>Genero ( Male - Female )
+                    <input type="text" name="Gender" step=".01">
+                </label>
+
+                <br>
+                <br>
+                <label> Poliuria ( Producción Excesiva Orina )
+                    <input type="text" name="Polyuria" step=".01">
+                </label>
+
+                <br>
+                <br>
+
+                <label>Polidipsia ( Sed Excesiva )
+                    <input type="text" name="Polydipsia" step=".01">
+                </label>
+
+                <br>
+                <br>
+
+                <label>Pérdida de Peso Repentina 
+                    <input type="text" name="sudden_weight_loss" step=".01">
+                </label>
+
+                <br>
+                <br>
+
+                <label> Debilidad 
+                    <input type="text" name="weakness" step=".01">
+                </label>
+
+                <br>
+                <br>
+
+                <label>Polifagia ( Comer en Exceso )
+                    <input type="text" name="Polyphagia" step=".01">
+                </label>
+                <br>
+                <br>
+
+                <label>Obesidad ( Sobrepeso )
+                    <input type="text" name="Obesity" step=".01">
+                </label>
+                <br>
+                <br>
+
+                <label>Parésis Parcial (Pérdida Movimiento Muscular)
+                    <input type="text" name="partial_paresis" step=".01">
+                </label>
+                <br>
+                <br>
+                <label>Irritabilidad 
+                    <input type="text" name="Irritability" step=".01">
+                </label>
+
+                
+
+                <!--
+        <p>EDAD:
+            <input type="number" name="EDAD"></p>
+        <p>CANTIDAD DE PERSONAS A MANTENER:
+            <input type="number" name="CANTIDADPERSONASAMANTENER"></p>
+        <p>EMPLEO:
+            <input type="radio" name="EMPLEO" value="A171"> A171
+            <input type="radio" name="EMPLEO" value="A172"> A172
+            <input type="radio" name="EMPLEO" value="A173"> A173
+            <input type="radio" name="EMPLEO" value="A174"> A174
+        </p>
+    -->
+            <div class="formulario01"></div>
+       
+                <p><input type="submit" value="PREDECIR" class="boton"> </p>
+            </div>
+           
+        </form>
+    </aside>
+  
+</body>
+
+</html>

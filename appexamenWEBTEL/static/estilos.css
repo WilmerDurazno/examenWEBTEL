@@ -1,0 +1,192 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.error {
+    color: red;
+}
+
+
+.Formulario {
+    width: 100%;
+    height: 1000px;
+}
+
+.encabezado { 
+    width: 100%;
+    height: 100px;
+    float: left;  
+    background-color:rgb(143, 97, 97); 
+}
+
+
+.encabezado  h1{ 
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(12, 10, 10);
+    
+}
+
+
+.separador {
+    width: 100%;
+    height: 0px;
+    background-color:rgb(222, 235, 229); 
+    clear: both;
+    padding-block-end: 10%;
+}
+
+
+
+.estructuraFormulario{
+    width: 100%;
+    height: 1500px;
+    text-align: center;
+    float: left;
+}
+
+#formulario01{
+    width: 100%;
+    height: 850px;
+    border-radius: 10px;
+    text-align: left;
+    padding-top: 5px;
+    background-color:rgb(183, 187, 158); 
+    
+}
+
+label {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    color: rgb(3, 58, 104);
+    font-weight: bold;
+}
+
+input {
+    width:100%; 
+    height:40px; 
+    margin:2px 0 6px; 
+    padding-left:6px; 
+    box-sizing: border-box; 
+    border-radius:3px; 
+    border:0; 
+    font-family: miFuente; font-size:1em; 
+    margin-left:auto; 
+    margin-right:auto; 
+    background-color: rgb(137, 136, 143);
+    
+}
+
+#cuerpo{ font-family: miFuente;
+    width: 40%;
+max-width: 1200px;
+padding-left: 0.9%;
+padding-right: 0.9%;
+padding-top: 1%;
+padding-block-end: 71%;
+margin: auto;
+clear: none;
+float: none;
+margin-left: auto;
+margin-top: 3%;
+margin-block-end: 3%;
+background-color:rgb(236, 234, 230);
+
+box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
+}
+
+#avatar {
+    
+    max-width: 50%;
+    margin: -20% 20% -3% 16%;
+    width: 400px;;
+    height:auto;
+   
+}
+
+#avatar2 {
+    
+    max-width: 100%;
+    margin: -20% 20% -3% 16%;
+    margin-top: 8%;
+    width: 500px;;
+    height: 400px;;
+   
+}
+#nuevo{
+    size: 3;
+    color: green;
+}
+
+.boton {display: inline-block; 
+    border:0; background: rgba(34, 199, 122, 0.974); 
+    height: 46px; 
+    line-height: 46px; 
+    padding: 0 20px; 
+    border-radius: 6px; 
+    color:rgb(9, 12, 10); 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    margin-left:34%; 
+    margin-right:auto; 
+    font-weight: bold;
+    width: 30%;
+    font-size: 25px;
+    
+}
+
+
+.respuesta {display: inline-block; 
+    border:0; background: rgba(0, 1, 60, 0.974); 
+    height: 46px; 
+    line-height: 46px; 
+    padding: 0 20px; 
+    border-radius: 20px; 
+    color:rgb(13, 19, 13); 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    
+    margin-right:auto; 
+    font-weight: bold;
+    width: 30%;
+    font-size: 50px;
+    text-align:center;
+    
+}
+
+#cuerpo1{ font-family: miFuente;
+    width: 1000px;
+    height: 700px;
+max-width: 1000px;
+
+margin: auto;
+clear: none;
+float: none;
+margin-left: 30%;
+margin-top: 3%;
+margin-block-end: 3%;
+background-color:rgb(200, 169, 226); 
+
+box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
+}
+
+#cuerpo2{font-family: miFuente;
+    width: 1000px;
+    height: 700px;
+max-width: 1000px;
+
+margin: auto;
+clear: none;
+float: none;
+margin-left: 30%;
+margin-top: 3%;
+margin-block-end: 3%;
+background-color:rgb(200, 169, 226); 
+
+box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
+}

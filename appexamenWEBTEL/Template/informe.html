@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="../static/estilos.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Informe de diagnostico</title>
+</head>
+
+<body id="cuerpo1" class="respuesta"> 
+
+    {% csrf_token %} 
+    
+    Informe: {{e}}
+    
+    <img id="avatar2" src="../static/dia.jpg" class="imapie" alt="Información Sanitaria" />
+    <br>
+    <br>
+    <br>
+
+    <a id="nuevo" href="http://127.0.0.1:8000/nuevasolicitud/">Nueva Prediccion</a>
+    
+</body>
+
+
+</html>
